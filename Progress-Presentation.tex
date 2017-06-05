@@ -1,0 +1,161 @@
+
+\documentclass[10pt, a4paper]{beamer}
+
+\usetheme{Berkeley}
+\usecolortheme{sidebartab}
+
+\begin{document}
+	\setbeamertemplate{sidebar left}{}
+	\title{Progress Presentation-I}
+	\subtitle{e-Yantra Summer Intership-2016 \\ Modular Robots}
+	\author{Srijal Poojari\\Madhav Wagh\\
+	\textbf{Mentor}: Pushkar Raj}
+	\institute{IIT Bombay}
+	\date{\today}
+	%\addtobeamertemplate{sidebar left}{}{\includegraphics[scale = 0.3]{logowithtext.png}}
+	\frame{\titlepage}
+
+\setbeamertemplate{sidebar left}[sidebar theme]
+\section{Overview of Project}
+\begin{frame}{Overview of Project}
+	Give following details: \\
+	\begin{itemize}
+		\item \textbf{Project Name}:  Modular Robots
+		\item \textbf{Objective} 
+		\begin{enumerate}
+		\item To build a Self-reconfigurable autonomous 	     		robot which can deliberately change shape by 				reorganizing connectivity between the modules.
+		\linebreak
+		\item To add sensors to the robot and make it smart. 		\\(To sense and take action according to the 				  environment)
+		\linebreak
+		\end{enumerate}
+		\item \textbf{Deliverables}
+		\begin{enumerate}
+		 \item A stable modular robot which is able to 					  change its shape upon the need of the 					  environment\linebreak
+		\item Code and Documentation of each Task (1-6)
+		\end{enumerate}
+	\end{itemize}
+\end{frame}
+
+\section{Overview of Task}
+\begin{frame}{Overview of Task}
+	\begin{itemize}
+		\item \textbf{List Of Key Tasks with Deadlines} 
+		
+	\end{itemize}
+	
+	\begin{center}
+    \begin{tabular}{ | l | p{5cm} | l |}
+    \hline
+     \textbf{Task No.} & \textbf{Task} & \textbf{Deadline}\\ \hline
+     1 & Getting Familiar with existing models of Modular Robots & 2 days  \\ \hline
+     
+     2 & Interfacing Arduino IDE with Servo, Bluetooth and Sensor & 3 days  \\ \hline
+     
+     3 & Testing and selecting appropriate sensors to be added in the module & 2 days  \\ \hline
+     
+     4 & Make design changes in the modules for accommodating sensors.  & 4 days  \\ \hline
+     
+    
+    
+    
+    \end{tabular}
+\end{center}
+
+   
+
+	
+\end{frame}
+
+
+\section{Overview of Task}
+\begin{frame}{Overview of Task}
+	
+	\begin{center}
+    \begin{tabular}{ | l | p{5cm} | l |}
+    \hline
+     \textbf{Task No.} & \textbf{Task} & \textbf{Deadline}\\ \hline
+     
+     
+     5 & Assembling all the selected parts. Four robotic modules need to be produced & 4 days  \\ \hline
+     
+     6 & Applying algorithm to check different types of motion (Wheel, Snake, Ladder)  & 7 days  \\ \hline
+     
+     7 & Autonomous Obstacle Avoidance using sensor detection and self-reconfiguration & 6 days  \\ \hline
+     
+     8 & Code \& Documentation & 6 days  \\ \hline
+    
+    
+    \end{tabular}
+\end{center}
+
+   
+
+	
+\end{frame}
+
+\section{Task Accomplised}
+\begin{frame}{Task Accomplised}
+	\begin{itemize}
+		\item \textbf{Task-1:} Got Familiar with existing models, selected the most suitable model based on efficiency, expandability and time constraints.\linebreak
+		\item \textbf{Task-2:} Interfaced Arduino Nano with Servo Motors, Bluetooth and Sensor\linebreak
+		\item \textbf{Task-3:} Testing and selecting appropriate sensors to add in the module.
+	Two Sensors were successfully interfaced and calibrated:
+	\\1) Sharp Sensor         
+	\\2) Laser TOF Sensor (selected based on size, range and accuracy)\linebreak
+
+
+
+		
+	\end{itemize}
+\end{frame}
+
+\section{Task Accomplised}
+\begin{frame}{Task Accomplised}
+	\begin{itemize}
+		
+
+		\item  \textbf{Task-4:}  Studied the design and made design changes to module to change the hole size as to fit the available screw dimension. \linebreak
+
+		\item \textbf{Task-5:}  Simulated the movements of the designed modular robot.
+		\begin{itemize}
+		
+		
+\item Interfaced Laser TOF sensor in simulation environment and took feedback for reorganization.                                                                                                                              \item Also scripted it in LUA to overcome obstacles. (Attached video)
+        \linebreak After successful simulation of the design the parts are given for printing.
+        \end{itemize}
+
+		
+	\end{itemize}
+\end{frame}
+
+
+
+\section{Challenges Faced}
+\begin{frame}{Challenges Faced}
+	\begin{itemize}
+		\item Appropriate screw (2mm x 4mm Flathead) not available, so had to change the 3D CAD design
+		\item Selection of Sensors which would fit the free space available in the design, and also serve the purpose of successful obstacle detection.
+
+		\item Coding on V-REP using LUA. The V-REP script flow is time dependent. (Add flow diagram)
+
+ 
+	\end{itemize}
+\end{frame}
+
+\section{Future Plans}
+\begin{frame}{Future Plans}
+	\begin{itemize}
+		\item All printed parts assembled. Four Robotic modules to be assembled
+		\item Applying algorithm to check different type of motion (Wheel, Snake)
+
+		\item  Begin with Autonomous obstacle avoidance using sensor detection.
+
+	\end{itemize}
+\end{frame}
+
+
+\section{Thank You}
+\begin{frame}{Thank You}
+	\centering THANK YOU !!!
+\end{frame}
+\end{document}
